@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    background: linear-gradient(to right, blue, white);
+    border-radius: 20px;
+    margin: 50px 50px;
+
+}
+
+.heading{
+    padding: 20px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    gap: 30px;
+    position: absolute;
+    right: 300px;
+}
+
+
+
+li:hover{
+    border-bottom: #fff solid 1px;
+} 
